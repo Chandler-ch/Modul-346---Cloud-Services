@@ -36,10 +36,17 @@ Unsere Kosten pro Monat betragen:
 
 ![Endvergleich](B_Endvergleich.png)
 
-CLOUD-VORTEILE
+## CLOUD-VORTEILE
 + Es kostet fast 3x weniger die Cloud zu nutzen.
-+ 
++ Die Betreiber sind Experten auf ihrem Gebiet.
 
+## CLOUD-NACHTEILE
++ Fremde Leute verwalten unsere Server
+- Wir müssen alles umstellen und übertragen auf die neuen Server.
+
+
+## Lösungsvorschlag
+Ich schlage vor, wir gehen auf jeden Fall in die Cloud. Wir sparen fast 2 Drittel des Geldes, was wir heute noch für die On Premises Server ausgeben. Wir müssen zwar unsere vorhandenen Server auf den Cloud-Server übertragen, aber bei der Cloud arbeiten viele Experten, die sich damit auskennen. Wenn wir uns jetzt überlegen ob wir die Instanz t2.micro oder m4.xlarge nehmen wollen, empfehle ich die t2.micro Instanz. Wir haben gerade einfach kein Bedürfnis, sodass wir problemlos mit der t2.micro Instanz arbeiten können. Sollten wir in Zukunft trotzdem eines Tages Probleme haben, können wir mit ein paar Klicks sofort die Instanz auf m4.xlarge skalieren und wir hätten gar keine Umstände.
 
 ## Ressourcen
 Fürs Protokoll ist hier noch einmal der Screenshot, um die Preise festzuhalten. Hier haben wir erst einmal die normalen EC2 kosten der beiden Instanzen:
@@ -47,6 +54,7 @@ Fürs Protokoll ist hier noch einmal der Screenshot, um die Preise festzuhalten.
 ![EC2-Kosten](APreisvergleich.png)
 
 Und da wir natürlich noch den S3 Speicher brauchen, wollte ich dies Vollständigkeitshalber auch noch festhalten:
+
 ![S3-Preise](B_S3Preise.png)
 
 
