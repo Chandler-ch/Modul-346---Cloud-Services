@@ -1,0 +1,5 @@
+## Why are SSH-keys so much safer and better than passwords?
+Um Passwörter zu erstellen, muss man einen Username angeben plus einen String was in dem Fall dann das Passwort simbolisiert. Da nun aber viele Leute unkreativ sind und es nicht schaffen 12 Zeichen lange Passwörter zu nutzen und diese auf eine Liste zu schreiben damit man es sich merken kann, gibt es die zweite Methode mit SSH-Schlüsseln. Hierbei müssen sich Benutzer überhaupt nichts mehr merken denn die Verschlüsselung wird mit private und public Keys gehandhabt. Von dem her mag es komplizierter sein zum einrichten, aber allemal sicherer als schwache Passwörter. Vor allem da bei einem Hack nur der Server an sich betroffen ist und die private Keys immer noch verdeckt bleiben. Was bedeutet, dass deinem Gerät nicht viel passieren kann.
+
+## Quelle
++ https://thorntech.com/passwords-vs-ssh/
