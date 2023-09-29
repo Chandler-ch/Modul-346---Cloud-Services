@@ -7,4 +7,5 @@ Wir müssen natürlich die gleichen Schritte am Anfang machen wie in Aufgabe B, 
 + Instanz erstellen
 + Ubuntu 22.4
 + userdata Yaml File hinzufügen
-+ Konsole: ssh <user>@<server> -i <path-to-privatekey>\<private-key-file>.pem -o ServerAliveInterval=30
++ Konsole: ssh <user>@<server>
+Und schon ist man in der Instanz drin.
