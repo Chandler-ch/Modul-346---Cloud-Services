@@ -1,9 +1,0 @@
-Nachschauen wie ich früher connected habe
-
-
-ANLEITUNG:
--Instanz launchen
--Name eingeben
--SSH - Keypair??
--Security Group Regeln (HTTP-Connection enablen)
--User File hinzufügen (cloud-init.yaml)
