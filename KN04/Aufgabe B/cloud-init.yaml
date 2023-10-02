@@ -1,0 +1,41 @@
+#cloud-config
+users:
+  - name: ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    home: /home/ubuntu
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCkpNZTWr3xXJbsHxtroAqA6DPkLEpEOewXOIBwMNiUhhuMPCGALcxrohx6qdprXdVfP7Ngxx4H1+se9MWpE7f7TihdHSxvu7Avgn/FyQNeob26VB3vsLhI1OLBJ6acwYaFaLKD74eXT2saWudqO1OS8SQ9SWL1d5gd9T0O0EDjjLJ8YRH2lM4aSu4dBWNXanBKhKLIsGdQYssHv3IJN0FWgvIVD9fykgnwP/VNgynUtlVDkp2JGuqNhgSawv2oditgKorM9ecQ6R2lkdOti7a4lGxxgW0ss96l+OSLpjrdIR5jZJZYQPFuonyYc4xwLVdy8Salm5Dw7ctWMROI5tNx Chandler
+disable_root: false
+package_update: true  
+packages:
+  - wget
+  - curl
+
+write_files:
+  - content: |
+      <?php phpinfo(); ?>
+    path: /var/www/html/info.php
+    permissions: '0644'
+write_files:  # Ab hier wird das gesuchte PHP-File erstellt
+- content: |
+    <?php
+    $ihrname = "Chandler";
+    ?>
+
+    <html>
+    <head>
+    <title><?php echo $ihrname; ?></title>
+    </head>
+    <body>
+    <h1>KN04</h1>
+    <br />
+    <img src="https://stepankova.s3.amazonaws.com/JanWeinrich.png" alt="Bild aus S3-Bucket">
+    </body>
+    </html>
+
+  path: /var/www/html/test.php
+  permissions: '0644'
+runcmd:
+  - sudo systemctl restart apache2

@@ -28,3 +28,16 @@ Bisschen weiter unten steht "Bucket Policy" und wir fügen dann diesen Code hier
 	]
 }
 ~~~
+
+Das "arn:aws.." etc. ist der Bucket den wir benannt haben.
+
+## Objekt hinzufügen
+Wenn wir jetzt auf die Main-Seite gehen, und dort ein Object hinzufügen unter "Upload".
+![Objekt](Objekt.png)
+
+Nun können wir auf unser Bild klicken und werden weitergeleitet über unsere IP zum Bild. So sieht das dann aus:
+![Unser Bild](Our%20Image.png)
+
+
+## Quellen
++ M346 Repository
