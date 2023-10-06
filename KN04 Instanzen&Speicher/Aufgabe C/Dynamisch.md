@@ -56,7 +56,7 @@ Wir sehen jetzt unser unbekanntes Volumen angezeigt, welches wir nun bekannt mac
 Wir drücken auf Properties und stellen erst einmal als Grundlage unsere Volume online.
 Jetzt refreshen wir die Einstellungen und sehen dass unsere Disk "unallocated" ist. Das beheben wir indem wir auf diese Schaltfläche klicken und ihm einen Laufwerksbuchstaben hinzufügen.
 
-![Diskcreatin](KN04 Instanzen&Speicher\Aufgabe C\Create Drive.png)
+![Diskcreatin](CreateDrive.png)
 
 Jetzt fügen wir in unser neues Volumen einen Ordner hinzu, welcher nach dem Modul benannt wird. Jetzt haben wir die Aufgabe C abgeschlossen.
 
