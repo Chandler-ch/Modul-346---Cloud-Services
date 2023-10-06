@@ -100,3 +100,5 @@ EFS ist ein vollständig gemanagter File-Storage Service, welcher automatisch di
 ## Quellen
 + M346 Repository
 + ChatGPT
+
+Throughput = Datensatz/Verarbeitungsmenge
