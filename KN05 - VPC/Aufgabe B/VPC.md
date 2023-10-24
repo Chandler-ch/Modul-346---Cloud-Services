@@ -29,6 +29,13 @@ Wenn wir jetzt nachschauen, ist unser Gateway mit dem VPC wunderbar verbunden.
 
 ![Endergebnis](Endergebnis.png)
 
+Unfassbar wichtig für nächste Schritte ist auch noch die Anpassung der Auto-Zuweisung für die IPv4 Adressen im Subnetz.
+Dafür gehen wir in den Reiter "Subnetz" und wählen unser Public Subnetz aus. (Für das andere wiederholen)
+Dann gehen wir auf "Subnetz Settings"
+
+![SubnetSettings](SubnetSettings.png)
+Da aktivieren wir Auto-Assign IPv4 Adressen.
+
 
 ## Quellen
 + M346 Repository
