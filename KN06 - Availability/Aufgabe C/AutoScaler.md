@@ -51,4 +51,6 @@ Die Optionen sind:
 
 ..und das war es schon. Ansonsten ändern wir hier nichts mehr.
 
-![AutoScaling](AutoScaler.png)
+![AutoScaling](ScalingGroup.png)
+
+Nachdem sollten wir Instance Launch Optionen ausfüllen. 
