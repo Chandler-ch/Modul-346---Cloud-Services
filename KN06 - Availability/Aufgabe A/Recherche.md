@@ -57,3 +57,9 @@ Es gibt den **AWS Elastic Beanstalk Auto Scaling** welcher PaaS und WebServer Ma
 Den **Amazon RDS Auto Scaling** managed die relationale Datenbank, indem sie Replicas lesen oder erstellen.
 Den **Amazon Aurora Auto Scaling** ebenfalls etwas ähnliches, welches die Amazon Aurora Datenbank managed.
 Und als letztes den **AWS Fargate Auto Scaling** welcher eine Serverlose Computer Engine für Container ist.Auto Scaled Workloads und Ressourcen von Containern.
+
+
+# Quellen
+- ChatGPT
+- Julie
+- Hr. Callisto

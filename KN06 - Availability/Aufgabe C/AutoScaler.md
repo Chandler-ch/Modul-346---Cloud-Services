@@ -53,4 +53,38 @@ Die Optionen sind:
 
 ![AutoScaling](ScalingGroup.png)
 
-Nachdem sollten wir Instance Launch Optionen ausfüllen. 
+Als nächstes müssen wir unter "Network" unseren VPC angeben + die Public Subnetze
+
+![Next](Next.png)
+
+Als nächstes müssten wir den Load Balancer auswählen und bestätigen
+Einen Load Balancer haben wir in dieser Aufgabe noch nicht. Demnach werden wir diesen Step nicht verändern.
+Den Rest unten können wir auch überspringen.
+
+Dann sind wir bei der Grösse angekommen. Unsere gewünschte Anzahl Instanzen erhöhen wir auf 2, die Minimums- und Maximumsgrösse ebenfalls.
+Eine Scaling Policy brauchen wir nicht.
+
+![howmuch](howmuch.png)
+
+Danach Createn wir unseren Auto Scaler!
+
+Nun können wir direkt beobachten, dass automatisch 2 Instanzen gelauncht wurden.
+(AutoScaling Groups -> Auswählen -> History -> herunterscrollen)
+
+![AutoInstance](AutoInstance.png)
+
+
+## Überprüfen
+Wenn wir alles richtig gemacht haben, sollte die erste Instanz in der Availability Zome 1a sein und die zweite in der Zone 1b. (Die Markierten Namenlosen sind die die erstellt wurden)
+
+![Created Instances](Created%20Instances.png)
+
+Wenn wir jetzt auf die Public IP von unseren Instanzen gehen, sehen wir eine Webseite die auf die Instanzen zugeschnitten sind.
+
+![1a](Instance1b.png)
+![1b](Instance1b2.png)
+
+
+## Quellen
+- Repository M346
+- Google.com
