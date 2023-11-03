@@ -101,3 +101,15 @@ Unsere Eigenschaften sind:
 + Target Group: KN06-CHA-TargetGroup2
 + Target Valuie: 20
 + Instance Warmup: 300
+
+Wenn wir das alles von oben gemacht haben, können wir testen ob wir 3 Instanzen IDs sehen werden.
+
+![ID1](ID1.png)
+![ID2](ID2.png)
+
+Und hier als Grafik sehen wir dass 4 Instanzen aufgefahren sind, das heisst dass 2 neue durch das viele Klicken hier ist.
+
+![IDAll](OtherID.png)
+
+## Quellen
++ M346 Repository
