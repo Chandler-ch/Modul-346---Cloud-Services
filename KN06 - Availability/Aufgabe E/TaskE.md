@@ -110,6 +110,7 @@ Wenn wir das alles von oben gemacht haben, können wir testen ob wir 3 Instanzen
 Und hier als Grafik sehen wir dass 4 Instanzen aufgefahren sind, das heisst dass 2 neue durch das viele Klicken hier ist.
 
 ![IDAll](OtherID.png)
+![Grafik](Grafik.png)
 
 ## Quellen
 + M346 Repository
