@@ -22,3 +22,7 @@ Wir wählen wieder in der Navigationsbar "AutoScalin" "AutoScalingGroups" aus. D
 Wir scrollen nach unten bis "LoadBalancer" und editieren ihn.
 
 Wir müssen ein Haken in den Bereich "Application, Network or Gateway Load Balancer target groups" setzen und unser Load Balancer auswählen. Dann können wir auch schon weitergehen.
+
+Jetzt können wir unseren LoadBalancer DNS Name in den Browser eingeben und es funktioniert! Der LoadBalancer wurde hinzugefügt und switcht jetzt die Seiten.
+
+![Beweis](Beweis.png)
