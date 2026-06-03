@@ -7,16 +7,16 @@ Im Grunde lassen wir das meiste auf Standard, aber die Security Group wird nach 
 Wenn wir das alles erledigt haben, können wir die Instanz launchen.
 
 ## Zwischenstand: unsere Web-Server-Instanz
-![Instanz](A_WebInstanz.png)
+![Instanz](Bilder/A_WebInstanz.png)
 
 ## Access bekommen
 Um auf den Server zuzugreifen, müssen wir die Public IPv4 als Adresse eingeben.
 Dies funktioniert aber nun nicht, wir bekommen einen Connection Timeout Error. Um das Problem zu beheben müssen wir unsere Security Group updaten, was wir vorhin ausgelassen haben. Demnach müssen wir links in der Navigation unsere Web-Server Security Group finden, selecten und auf den Inbound Rules Tab gehen. Dort adden wir jetzt eine neue Rule mit spezifischen Angaben.
 
-![InboundRuleConfiguration](A_InboundRules.png)
+![InboundRuleConfiguration](Bilder/A_InboundRules.png)
 
 Wenn jetzt alles funktioniert hat, sollten wir auf die Webseite per IPv4 kommen, auf welcher "Hello World" steht. Man muss noch darauf achten, dass man auch wirklich HTTP in der Adressleiste drinnen hat. Mit HTTPS funktioniert das ganze nicht!
 
-![Endergebnis](A_Endergebnis1.png)
+![Endergebnis](Bilder/A_Endergebnis1.png)
 ## Quellen
 + AWS Tutorial Kurs

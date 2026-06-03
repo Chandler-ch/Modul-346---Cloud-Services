@@ -18,7 +18,7 @@ Redundanz bedeutet die Verteilung, verschiedener Server auf verschiedene Locatio
 
 Failzones wechselt die Zonen aus, die langsam sind oder nicht funktionieren. Ist hier eigentlich ganz gut beschrieben:
 
-![Zonen](Zonen.png)
+![Zonen](Bilder/Zonen.png)
 
 
 ## Kleinfirma
@@ -45,7 +45,7 @@ Um DDos Angriffen Standzuhalten, ist es das beste, eine Firewallähnliche Einste
 ## Leistung überwacht?
 Das kann mit einem Cloud Watcher überprüft werden. Das ist so wie ein Bewacher im Gefängnis, welcher das Gelände und die Häftlinge im Blick hat und permanent Dokumentiert. Naja jedenfalls überprüft er wie die Instanzen laufen und welche gerade an sind.
 
-![Cloud](Cloud.png)
+![Cloud](Bilder/Cloud.png)
 
 # Auto Scaling
 Auto Scaling, arbeitet mit dem Cloud Watcher zusammen, und sobald dieser findet "Wir haben zu wenig Instanzen!" dann kommt der Autoscaler ins Spiel und erstellt eine neue Instanz aufgrund eines Templates, was die generellen Instanz Einstellungen beinhaltet. Durch dieses System ist der Autoscaler in Kombination mit dem Load Balancer sehr stark, da komplett dynamisch die grösse angepasst werden kann und auf Bedarf auch wieder herunterskaliert werden kann und Instanzen ausser Betrieb genommen werden.

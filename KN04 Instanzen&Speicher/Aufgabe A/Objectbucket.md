@@ -5,7 +5,7 @@ Als allererstes erstellen wir einen neuen Bucket in S3 mit:
 Wenn wir das haben, können wir unser Bucket createn.
 
 So, kurz darauf gehen wir in unsere Bucket Sicht
-![Permission](Permission%20Bucket.png)
+![Permission](Bilder/Permission%20Bucket.png)
 
 Bisschen weiter unten steht "Bucket Policy" und wir fügen dann diesen Code hier ein:
 ~~~
@@ -33,10 +33,10 @@ Das "arn:aws.." etc. ist der Bucket den wir benannt haben.
 
 ## Objekt hinzufügen
 Wenn wir jetzt auf die Main-Seite gehen, und dort ein Object hinzufügen unter "Upload".
-![Objekt](Objekt.png)
+![Objekt](Bilder/Objekt.png)
 
 Nun können wir auf unser Bild klicken und werden weitergeleitet über unsere IP zum Bild. So sieht das dann aus:
-![Unser Bild](Our%20Image.png)
+![Unser Bild](Bilder/Our%20Image.png)
 
 
 ## Quellen

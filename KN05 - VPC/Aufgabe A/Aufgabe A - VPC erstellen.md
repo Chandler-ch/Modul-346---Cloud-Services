@@ -4,7 +4,7 @@ Als erstes machen wir einen kleinen Umschwung zu einem anderen AWS Foundations L
 Heute benutzen wir kein EC2, S3 oder irgendeinen Service, den wir zuvor genutzt haben, sondern wir gehen auf die Service-9-Punkte Schaltfläche und suchen nach "VPC".
 Oben Rechts müssen wir noch einmal checken, ob wir wirklich in Nord Virginia sind und createn unseren VPC.
 
-![CreateVPC](CreateVPC.png)
+![CreateVPC](Bilder/CreateVPC.png)
 
 Wir müssen konfigurieren:
 + VPC and more
@@ -35,7 +35,7 @@ Unsere Einstellungen sind:
 
 Dieses Subnetz wird alle IP Adressen besitzen die eine 2 an dritter Stelle haben.
 
-![Subnetz erstellen](Subnetz%20erstellen.png)
+![Subnetz erstellen](Bilder/Subnetz%20erstellen.png)
 
 Jetzt machen wir quasi das gleiche nochmals, nur als private Subnetz. Wir gehen also noch einmal auf die Schaltfläche "Create Subnet", und geben diese Einstellungen ein:
 + VPC ID: lab-vpc
@@ -46,7 +46,7 @@ Jetzt machen wir quasi das gleiche nochmals, nur als private Subnetz. Wir gehen 
 Dieses Subnetz hat nun alle IP-Adressen im 3er Bereich.
 Wir drücken auf "create" und unser Privates Subnetz wurde erstellt.
 
-![Subnetz](SubnetzListe.png)
+![Subnetz](Bilder/SubnetzListe.png)
 
 ## NAT-Gateway
 Unser Plan ist es jetzt dieses Private Subnetz im NAT-Gateway hinzuzufügen.
@@ -54,7 +54,7 @@ Jetzt wählen wir Links die Route Tables aus und selecten unser lab-rtb-private1
 Dann gehen wir auf den Subnet-Association Tab und auf den editieren Button.
 
 Wir selecten unsere neue Gruppe und gehen dann auf Saven.
-![save](Gateway%20Save.png)
+![save](Bilder/Gateway%20Save.png)
 
 Und wenn wir alles richtig gemacht haben, wird es funktioniert haben.
 
@@ -105,23 +105,23 @@ service httpd start
 Und dann können wir endlich unsere Instanz starten.
 Und zack, schon existiert unsere Web Server Instanz.
 
-![WebInstanz](WebServerCreated.png)
+![WebInstanz](Bilder/WebServerCreated.png)
 
 Jetzt müssen wir nur noch warten bis die Checks durch sind und dann können wir fortfahren.
 
 Jedenfalls, wenn das abgeschlossen ist, können wir die Instanz markieren und unten nach dem Public DNS suchen, die Seite aufrufen und aus dem https ein http machen und unser Resultat ist dieses hier:
 
-![Endscreen](Endprodukt.png)
+![Endscreen](Bilder/Endprodukt.png)
 
 
 ## Nachweise
 100% CPU Load:
 
-![LoadNachweis](LoadTest.png)
+![LoadNachweis](Bilder/LoadTest.png)
 
 Networking Tab:
 
-![Netzwerk](NetzwerkInstanz.png)
+![Netzwerk](Bilder/NetzwerkInstanz.png)
 
 
 ## Quellen

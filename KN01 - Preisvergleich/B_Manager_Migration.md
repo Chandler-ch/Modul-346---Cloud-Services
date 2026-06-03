@@ -34,7 +34,7 @@ Unsere Kosten pro Monat betragen:
 
 ## Vergleich
 
-![Endvergleich](B_Endvergleich.png)
+![Endvergleich](Bilder/B_Endvergleich.png)
 
 ## CLOUD-VORTEILE
 + Es kostet fast 3x weniger die Cloud zu nutzen.
@@ -51,11 +51,11 @@ Ich schlage vor, wir gehen auf jeden Fall in die Cloud. Wir sparen fast 2 Dritte
 ## Ressourcen
 Fürs Protokoll ist hier noch einmal der Screenshot, um die Preise festzuhalten. Hier haben wir erst einmal die normalen EC2 kosten der beiden Instanzen:
 
-![EC2-Kosten](APreisvergleich.png)
+![EC2-Kosten](Bilder/APreisvergleich.png)
 
 Und da wir natürlich noch den S3 Speicher brauchen, wollte ich dies Vollständigkeitshalber auch noch festhalten:
 
-![S3-Preise](B_S3Preise.png)
+![S3-Preise](Bilder/B_S3Preise.png)
 
 
 ## Quellen

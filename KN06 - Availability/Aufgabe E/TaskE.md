@@ -49,10 +49,10 @@ Dafür suchen wir links in der Navigationsbar nach "AutoScalingGroups" und klick
 + Minimum Capacity: 2
 + Maximum Capacity: 4
 
-![AutoScalerGroup](AutoScalingGroup.png)
+![AutoScalerGroup](Bilder/AutoScalingGroup.png)
 
 Wenn wir jetzt eine Instanz uns zu Testzwecken anschauen würden, sehen wir dass die ID angezeigt wird uns sie funktioniert.
-![Instanz](Instanztesting.png)
+![Instanz](Bilder/Instanztesting.png)
 
 ## Target Group
 Als nächstes erstellen wir eine Target Group.
@@ -87,7 +87,7 @@ Die Konfigurationen die wir für den Load Balancer treffen müssen sind diese hi
 ## Connecting AutoScaler & Load Balancer
 Wir gehen nach unten in der AutoScalingGroup und gehen dort auf den Edit zum Load Balancer. Dort können wir ihn hinzufügen.
 
-![Hinzufügen](Hinzufügen.png)
+![Hinzufügen](Bilder/Hinzufügen.png)
 
 Natürlich per "Application, Network or Gateway, Load Balancer target groups"-Kästchen
 
@@ -104,13 +104,13 @@ Unsere Eigenschaften sind:
 
 Wenn wir das alles von oben gemacht haben, können wir testen ob wir 3 Instanzen IDs sehen werden.
 
-![ID1](ID1.png)
-![ID2](ID2.png)
+![ID1](Bilder/ID1.png)
+![ID2](Bilder/ID2.png)
 
 Und hier als Grafik sehen wir dass 4 Instanzen aufgefahren sind, das heisst dass 2 neue durch das viele Klicken hier ist.
 
-![IDAll](OtherID.png)
-![Grafik](Grafik.png)
+![IDAll](Bilder/OtherID.png)
+![Grafik](Bilder/Grafik.png)
 
 ## Quellen
 + M346 Repository

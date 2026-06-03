@@ -61,7 +61,7 @@ Funktioniert es NICHT.
 ## Schlüssel Zuweisung
 Wir haben ein Problem. Der ssh-Key wird nicht ausgewählt, heisst unsere Seite wird nicht entschlüsselt und wir können unser Bild nicht sehen. Was wir nun zu tun haben, hängt mit einem sogenannten *Pageant* zusammen. Dieser kann unsere SSH-Keys sammeln und weiterverwenden. 
 
-![Pageant](Pageant.png)
+![Pageant](Bilder/Pageant.png)
 
 Tatsächlich ist nun mit dem alten .pem Format Schluss, wir müssen unseren Private Key upgraden zu einem .ppk-File. Mit diesem können wir zwar nicht mehr per Konsole connecten aber wir können ihn im Pageant hinzufügen.
 
@@ -75,17 +75,17 @@ Und tatsächlich haben wir nur eine zweite Commandline connection. Das ist ein w
 Ich habe eine kleine Anleitung gefunden unter
 + Instanzen - Connect - SSH-Client
 
-![SSH-Connection?](SSH-Connection.png)
+![SSH-Connection?](Bilder/SSH-Connection.png)
 
 Dies stellt sich aber ebenfalls nur als Commandline Hilfe heraus.
 
 ## Lösung
 Ich musste ganz normal in die Terminal Server Seite gehen und dort dann zuerst Apache installieren. Nachdem ich das gemacht habe, war die Webseite sofort ready. Zwar wird mein Php nicht richtig angezeigt aber das sollte schnell behebbar sein.
-![Progress](Progress.png)
+![Progress](Bilder/Progress.png)
 
 PHP muss ebenfalls installiert sein und wenn man dann in die URL test.php eingeben! Und dann funktioniert es endlich nach den vielen Versuchen.
 
-![Endergebnis](Endergebnis.png)
+![Endergebnis](Bilder/Endergebnis.png)
 
 ## Quellen
 + M346 Repository

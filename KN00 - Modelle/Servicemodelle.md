@@ -2,7 +2,7 @@
 Es gibt 4 Servicemodelle, die benutzt werden. Ähnlich wie bei den Betriebsmodellen, geht es hier auch wieder um Kontrolle und wie Services gemanaged oder gehostet werden.
 
 Hier ein gutes Bild um zu veranschaulichen wie das funktioniert:
-![Pizza-Service](<Betriebsmodell, Servicemodell Beispiel.png>)
+![Pizza-Service](<Bilder/Betriebsmodell, Servicemodell Beispiel.png>)
 Wenn man die Zutaten selber holen will, bedeutet das mehr Aufwand, dafür kannst du genau darüber bestimmen woher, was genau und wie die Zutaten zu dir gekommen sind. Das gleiche ist es basically mit den Modellen. Wenn ich Abteile den Services überlasse, weiss ich nicht ganz genau was da passiert, bezahle Leute dafür, dass sie meine Server warten und vertraue auf ihre Kentnisse, gute Ergebnisse zu erzielen. Und da der Kunde König ist, kann ich auch genau bestimmen, was für eine Skalierbarkeit ich haben will.
 
 

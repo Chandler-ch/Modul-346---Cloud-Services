@@ -12,11 +12,11 @@ ssh <user>@<server> -i <path-to-privatekey>\<private-key-file>.pem -o ServerAliv
 
 Wenn unser Command funktioniert hat, sieht die Kommandozeile beim ersten Schlüssel so aus:
 
-![Key1](Keyloader1.png)
+![Key1](Bilder/Keyloader1.png)
 
 Beim zweiten Key hingegegen werden wir nicht in die Instanz hineingelassen, da wir nur ein Key-Pair approved haben.
 
-![Key2](Keyloader2.png)
+![Key2](Bilder/Keyloader2.png)
 
 
 ## Quellen

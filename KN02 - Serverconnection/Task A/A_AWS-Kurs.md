@@ -20,7 +20,7 @@ Ich glaube die Sache mit der Data-Sammlung kann man auf ganz viele Unterhaltungs
 
 Ich glaube es kommt seriöser rüber, wenn man eine Webseite besucht, die etwas mit dem zu tun hat, für die sie steht. Letztens tatsächlich habe ich etwas über Haare gesucht und da waren viele Webseiten mit dem Namen "Haare" in der Domain. Ich finde sie wirken irgendwie seriöser, so als ob sie experten seien in dem Gebiet. Denn sie haben ja ihre ganze Webseite dem Thema gewidmet oder? Im Endeffekt ist das der erste Eindruck. Ob dies sich dann bewährt, ist eine andere Frage.
 
-![Haaredomain](A_Haairlust.png)
+![Haaredomain](Bilder/A_Haairlust.png)
 In dem Beispiel hier findet man aber leider sehr viel Selbstbeweihräucherung und es wird sehr suggeriert wie toll alles auf dieser Seite ist und generell die Marke ist perfekt, was leider schon wieder unseriös wirkt. Wie gesagt, die Domain ist nur der erste Eindruck!
 
 ## Cookies

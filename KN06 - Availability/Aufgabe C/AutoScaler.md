@@ -9,14 +9,14 @@ Er wird erst aktiviert, wenn mit dem System etwas nicht stimmt.
 + Reagiert auf EC2 Status Checks und CloudWatch-Metrics.
 + Skaliert On-demand (Performance) und/oder gemäss Planung (Falls man z.B. weiss, dass am Sonntagabend ein Backup-Job viel Ressourcen braucht).
 
-![AutoScaler](AutoScaler.png)
+![AutoScaler](Bilder/AutoScaler.png)
 
 ## Vorbereitung
 Als erstes werden wir für unsere Instanzen ein sogenanntes "Launch Template" verwenden. Unser Ziel am Ende wird es sein automatisch Instanzen zu erstellen, deshalb brauchen wir dafür auch ein Template.
 
 Dafür gehen wir in der Seitenleiste bei den Instanzen auf "Create Launch Template" und fangen an.
 
-![Template](InstanceTemplate.png)
+![Template](Bilder/InstanceTemplate.png)
 
 Unsere Daten hierfür wären:
 + Template Name - KN06_CHA_LaunchTemplate
@@ -51,11 +51,11 @@ Die Optionen sind:
 
 ..und das war es schon. Ansonsten ändern wir hier nichts mehr.
 
-![AutoScaling](ScalingGroup.png)
+![AutoScaling](Bilder/ScalingGroup.png)
 
 Als nächstes müssen wir unter "Network" unseren VPC angeben + die Public Subnetze
 
-![Next](Next.png)
+![Next](Bilder/Next.png)
 
 Als nächstes müssten wir den Load Balancer auswählen und bestätigen
 Einen Load Balancer haben wir in dieser Aufgabe noch nicht. Demnach werden wir diesen Step nicht verändern.
@@ -64,25 +64,25 @@ Den Rest unten können wir auch überspringen.
 Dann sind wir bei der Grösse angekommen. Unsere gewünschte Anzahl Instanzen erhöhen wir auf 2, die Minimums- und Maximumsgrösse ebenfalls.
 Eine Scaling Policy brauchen wir nicht.
 
-![howmuch](howmuch.png)
+![howmuch](Bilder/howmuch.png)
 
 Danach Createn wir unseren Auto Scaler!
 
 Nun können wir direkt beobachten, dass automatisch 2 Instanzen gelauncht wurden.
 (AutoScaling Groups -> Auswählen -> History -> herunterscrollen)
 
-![AutoInstance](AutoInstance.png)
+![AutoInstance](Bilder/AutoInstance.png)
 
 
 ## Überprüfen
 Wenn wir alles richtig gemacht haben, sollte die erste Instanz in der Availability Zome 1a sein und die zweite in der Zone 1b. (Die Markierten Namenlosen sind die die erstellt wurden)
 
-![Created Instances](Created%20Instances.png)
+![Created Instances](Bilder/Created%20Instances.png)
 
 Wenn wir jetzt auf die Public IP von unseren Instanzen gehen, sehen wir eine Webseite die auf die Instanzen zugeschnitten sind.
 
-![1a](Instance1b.png)
-![1b](Instance1b2.png)
+![1a](Bilder/Instance1b.png)
+![1b](Bilder/Instance1b2.png)
 
 
 ## Quellen
